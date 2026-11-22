@@ -160,7 +160,7 @@ cat << 'EOS' > "${APP_NAME}/tsconfig.worker.json"
 		"tsBuildInfoFile": "./node_modules/.tmp/tsconfig.worker.tsbuildinfo",
 		"types": ["@cloudflare/workers-types/2023-07-01", "vite/client"],
 	},
-	"include": ["worker"],
+	"include": ["src/worker"],
 }
 EOS
 
